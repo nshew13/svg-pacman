@@ -1,0 +1,17 @@
+$button-width: 75px;
+$button-height: 35px;
+
+// these should match viewBox settings
+$view-box-height: 300px;
+$view-box-width: 600px;
+
+.pacman-container {
+  background-color: darkblue;
+  height: $view-box-height/4;
+  width: $view-box-width/4;
+  position: relative;
+}
+
+body {
+  background-color: red;
+}
